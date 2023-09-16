@@ -24,6 +24,18 @@
     roslaunch lego_loam run.launch
     ```
 
+
+## Cite ALeGO-LOAM
+```
+  inproceedings{
+  author={Lee, Sheng-Wei and Hsu, Chih-Ming and Lee, Ming-Che and Fu, Yuan-Ting and Atas, Fetullah and Tsai, Augustine},
+  booktitle={2019 International Automatic Control Conference (CACS)}, 
+  title={Fast Point Cloud Feature Extraction for Real-time SLAM}, 
+  year={2019},
+  pages={1-6},
+  organization={IEEE}
+}
+```
 ## Cite SC-LeGO-LOAM
 ```
 @INPROCEEDINGS { gkim-2018-iros,
