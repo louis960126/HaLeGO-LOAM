@@ -5,11 +5,15 @@
 
 ![圖片1](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/aac7825a-cc15-4d2a-90bf-9dfa1fb60a3c)
 
+## Embedded Real-time Lidar SLAM: Sc-LeGO-LOAM (22 Sensors) + ALeGO-LOAM (2020 IEEE Intelligent Vehicles Symposium (IV))
+- SC-LeGO-LOAM is a lightweight, user-friendly, and fast LiDAR SLAM system, allowing for efficient loop detection and scan context creation with just two API functions.
+- ALeGO-LOAM leverages pole maps and fast point cloud feature extraction to significantly enhance vehicle localization accuracy and trajectory correction in self-driving systems.
+- 
+
 ## Features
 - Homogenized Point Cloud Sampling: Ensures clearer edge and planar extraction, boosting path estimation accuracy.
-
 - Adaptive Feature Extraction: Maintains point cloud density at vast distances and minimizes short-ranges feature sampling.
-
+  
 ## Performance
 - Consistently outperforms LeGO-LOAM, LiTAMIN2, and MULLS-SLAM on the KITTI dataset, offering significantly improved accuracy. In LGSVL simulations, it demonstrates 7-15% better edge position accuracy. 
 
@@ -17,7 +21,6 @@
 - Achieving approximately 30 fps on NVIDIA Xavier, HaLeGO-LOAM stands as a viable solution for embedded applications.
 
 
-## Embedded Real-time Lidar SLAM: Sc-LeGO-LOAM (22 Sensors) + ALeGO-LOAM (2020 IEEE Intelligent Vehicles Symposium (IV))
 
 
 
