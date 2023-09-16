@@ -53,11 +53,16 @@
     source devel/setup.bash
     roslaunch lego_loam run.launch
     ```
-
+### Comparison
+KITTI sequence 00 Blue: HaLeGO-LOAM Red: Ground Truth
+![1](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/bf2daef6-a429-484b-9b4f-58c0109d6974)
+| Dataset                                      | HaLeGO-LOAM                | LeGO-LOAM              |
+|----------------------------------------------|----------------------------|------------------------|
+| `KITTI sequence 00`                          | 0.47%                      | 2.17%                  |
     
 ## Demo
-KITTI DATA 00
-![1](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/bf2daef6-a429-484b-9b4f-58c0109d6974)
+
+
 
 ![圖片4](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/0666f646-3e09-419e-9afa-8cb50816ea3e)
 
