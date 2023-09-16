@@ -1,18 +1,18 @@
 # HaLeGO-LOAM
 
 ## HaLeGO-LOAM: A Real-Time LiDAR SLAM System that uses Homogenized Point Cloud Sampling and Adaptive Feature Extraction
--HaLeGO-LOAM is an optimized LiDAR-based SLAM system that enhances feature extraction and point representation, eliminating the need for high-precision IMU sensors.
+- HaLeGO-LOAM is an optimized LiDAR-based SLAM system that enhances feature extraction and point representation, eliminating the need for high-precision IMU sensors.
 
 ## Features
--Homogenized Point Cloud Sampling: Ensures clearer edge and planar extraction, boosting path estimation accuracy.
+- Homogenized Point Cloud Sampling: Ensures clearer edge and planar extraction, boosting path estimation accuracy.
 
--Adaptive Feature Extraction: Maintains point cloud density at vast distances and minimizes near-vehicle sampling.
+- Adaptive Feature Extraction: Maintains point cloud density at vast distances and minimizes near-vehicle sampling.
 
 ## Performance
--Consistently outperforms LeGO-LOAM, LiTAMIN2, and MULLS-SLAM on the KITTI dataset, offering significantly improved accuracy. In LGSVL simulations, it demonstrates 7-15% better edge position accuracy. 
+- Consistently outperforms LeGO-LOAM, LiTAMIN2, and MULLS-SLAM on the KITTI dataset, offering significantly improved accuracy. In LGSVL simulations, it demonstrates 7-15% better edge position accuracy. 
 
 ## Application
--Achieving approximately 30 fps on NVIDIA Xavier, HaLeGO-LOAM stands as a viable solution for embedded applications.
+- Achieving approximately 30 fps on NVIDIA Xavier, HaLeGO-LOAM stands as a viable solution for embedded applications.
 
 
 ## Embedded Real-time Lidar SLAM: Sc-LeGO-LOAM (22 Sensors) + ALeGO-LOAM (2020 IEEE Intelligent Vehicles Symposium (IV))
