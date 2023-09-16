@@ -1,6 +1,6 @@
 # HaLeGO-LOAM
 
-##HaLeGO-LOAM: A Real-Time LiDAR SLAM System that uses Homogenized Point Cloud Sampling and Adaptive Feature Extraction
+## HaLeGO-LOAM: A Real-Time LiDAR SLAM System that uses Homogenized Point Cloud Sampling and Adaptive Feature Extraction
 
 
 
