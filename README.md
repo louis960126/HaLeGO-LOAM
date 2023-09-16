@@ -55,7 +55,9 @@
     ```
 ### Comparison
 KITTI sequence 00 Blue: HaLeGO-LOAM Red: Ground Truth
-![1](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/bf2daef6-a429-484b-9b4f-58c0109d6974)
+
+![1](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/6a221961-8502-4a01-8fc1-4b86f04a5135)
+
 | Dataset                                      | HaLeGO-LOAM                | LeGO-LOAM              |
 |----------------------------------------------|----------------------------|------------------------|
 | `KITTI sequence 00`                          | 0.47%                      | 2.17%                  |
