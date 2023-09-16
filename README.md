@@ -2,7 +2,14 @@
 
 ## HaLeGO-LOAM: A Real-Time LiDAR SLAM System that uses Homogenized Point Cloud Sampling and Adaptive Feature Extraction
 
+## Embedded Real-time Lidar SLAM: Sc-LeGO-LOAM (22 Sensors) + ALeGO-LOAM (2020 IEEE Intelligent Vehicles Symposium (IV))
 
+
+
+
+
+
+- Current version: September, 2023.  
 
 
 
