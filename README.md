@@ -58,9 +58,9 @@
 ## Demo
 ![圖片4](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/0666f646-3e09-419e-9afa-8cb50816ea3e)
 
-
-- Dataset (Ouster 128)(Ouster 32) (Uploading)
 - video (https://www.youtube.com/watch?v=UxahkPNjOMg&ab_channel=Sheng-weiLee)
+- Dataset (Ouster 128)(Ouster 32) (Uploading)
+
 
 
 ## Cite ALeGO-LOAM
