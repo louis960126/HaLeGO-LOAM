@@ -1,6 +1,6 @@
 # HaLeGO-LOAM
 
-
+##HaLeGO-LOAM: A Real-Time LiDAR SLAM System that uses Homogenized Point Cloud Sampling and Adaptive Feature Extraction
 
 
 
@@ -24,15 +24,14 @@
     roslaunch lego_loam run.launch
     ```
 
-
 ## Cite ALeGO-LOAM
 ```
-  inproceedings{
-  author={Lee, Sheng-Wei and Hsu, Chih-Ming and Lee, Ming-Che and Fu, Yuan-Ting and Atas, Fetullah and Tsai, Augustine},
-  booktitle={2019 International Automatic Control Conference (CACS)}, 
-  title={Fast Point Cloud Feature Extraction for Real-time SLAM}, 
-  year={2019},
-  pages={1-6},
+@INPROCEEDINGS{9304747,
+  author={Lee, Sheng-Wei and Lin, Peng-Wei and Fu, Yuan-Ting and Hsu, Chih-Ming and Chan, Chen-Yu and Lin, Jhih-Hong and Chiang, Yen-Hung},
+  booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={Improving vehicle localization using pole-like landmarks extracted from 3-D lidar scans}, 
+  year={2020},
+  pages={2052-2057},
   organization={IEEE}
 }
 ```
