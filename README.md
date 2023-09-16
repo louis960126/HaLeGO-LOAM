@@ -6,7 +6,7 @@
 ## Features
 - Homogenized Point Cloud Sampling: Ensures clearer edge and planar extraction, boosting path estimation accuracy.
 
-- Adaptive Feature Extraction: Maintains point cloud density at vast distances and minimizes near-vehicle sampling.
+- Adaptive Feature Extraction: Maintains point cloud density at vast distances and minimizes short-ranges feature sampling.
 
 ## Performance
 - Consistently outperforms LeGO-LOAM, LiTAMIN2, and MULLS-SLAM on the KITTI dataset, offering significantly improved accuracy. In LGSVL simulations, it demonstrates 7-15% better edge position accuracy. 
@@ -43,6 +43,9 @@
     source devel/setup.bash
     roslaunch lego_loam run.launch
     ```
+## Demo
+- Dataset 
+
 
 ## Cite ALeGO-LOAM
 ```
