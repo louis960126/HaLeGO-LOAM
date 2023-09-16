@@ -16,7 +16,8 @@ Arthor:Lee
 
 
 
-Cite SC-LeGO-LOAM
+## Cite SC-LeGO-LOAM
+```
 @INPROCEEDINGS { gkim-2018-iros,
   author = {Kim, Giseop and Kim, Ayoung},
   title = { Scan Context: Egocentric Spatial Descriptor for Place Recognition within {3D} Point Cloud Map },
@@ -25,8 +26,9 @@ Cite SC-LeGO-LOAM
   month = { Oct. },
   address = { Madrid }
 }
-and
-
+```
+and 
+```
 @inproceedings{legoloam2018,
   title={LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain},
   author={Shan, Tixiao and Englot, Brendan},
@@ -35,3 +37,4 @@ and
   year={2018},
   organization={IEEE}
 }
+```
