@@ -2,6 +2,7 @@
 
 ## HaLeGO-LOAM: A Real-Time LiDAR SLAM System that uses Homogenized Point Cloud Sampling and Adaptive Feature Extraction
 - HaLeGO-LOAM is an optimized LiDAR-based SLAM system that enhances feature extraction and point representation, eliminating the need for high-precision IMU sensors.
+
 ![圖片1](https://github.com/louis960126/HaLeGO-LOAM/assets/43161306/aac7825a-cc15-4d2a-90bf-9dfa1fb60a3c)
 
 ## Features
