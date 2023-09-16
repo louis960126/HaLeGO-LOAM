@@ -8,8 +8,9 @@
 
 
 
-
-
+## Dependencies
+- All dependencies are same as LeGO-LOAM (i.e., ROS, PCL, and GTSAM).
+- C++14.
 
 ## How to use 
 - Place the directory `HaLeGO-LOAM` under user catkin work space 
@@ -45,3 +46,5 @@ and
   organization={IEEE}
 }
 ```
+## Contact 
+- Maintainer: Sheng-Wei Lee (`louis960126@gmail.com`)
