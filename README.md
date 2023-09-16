@@ -1,6 +1,5 @@
 # HaLeGO-LOAM
 
-Arthor:Lee
 
 
 
@@ -12,9 +11,17 @@ Arthor:Lee
 
 
 
-
-
-
+## How to use 
+- Place the directory `HaLeGO-LOAM` under user catkin work space 
+- For example, 
+    ```
+    cd ~/catkin_ws/src
+    git clone https://github.com/louis960126/HaLeGO-LOAM.git
+    cd ..
+    catkin_make
+    source devel/setup.bash
+    roslaunch lego_loam run.launch
+    ```
 
 ## Cite SC-LeGO-LOAM
 ```
