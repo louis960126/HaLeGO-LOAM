@@ -107,7 +107,7 @@ and
 }
 ```
 ## Contact 
-- Maintainer: Sheng-Wei Lee (`louis960126@gmail.com`)
+- Maintainer: (`louis960126@gmail.com`)
 
 ## NOTE
 - Code is currently being organized and will be continuously uploaded.
