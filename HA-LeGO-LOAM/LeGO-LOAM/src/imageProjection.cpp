@@ -384,7 +384,7 @@ public:
                     }
                     else if (labelMat.at<int>(i, j) == 999999 && rangeMat.at<float>(i, j) > 5.0 && rangeMat.at<float>(i, j) < 10.0)
                     {
-                        if (i > groundScanInd && j % 5 == 0)
+                        if (i > groundScanInd && j % 5 != 0)
                         {
                             // mark ground points so they will not be considered as edge features later
                             segMsg.segmentedCloudGroundFlag[sizeOfSegCloud] = (groundMat.at<int8_t>(i, j) == 1);
@@ -399,7 +399,7 @@ public:
                     }
                     else if (labelMat.at<int>(i, j) == 999999 && rangeMat.at<float>(i, j) > 10.0 && rangeMat.at<float>(i, j) < 15.0)
                     {
-                        if (i > groundScanInd && j % 3 == 0)
+                        if (i > groundScanInd && j % 3 != 0)
                         {
                             // mark ground points so they will not be considered as edge features later
                             segMsg.segmentedCloudGroundFlag[sizeOfSegCloud] = (groundMat.at<int8_t>(i, j) == 1);
@@ -414,7 +414,7 @@ public:
                     }
                     else if (labelMat.at<int>(i, j) == 999999 && rangeMat.at<float>(i, j) > 15.0 && rangeMat.at<float>(i, j) < 30.0)
                     {
-                        if (i > groundScanInd && j % 2 == 0)
+                        if (i > groundScanInd && j % 2 != 0)
                         {
                             // mark ground points so they will not be considered as edge features later
                             segMsg.segmentedCloudGroundFlag[sizeOfSegCloud] = (groundMat.at<int8_t>(i, j) == 1);
@@ -429,7 +429,7 @@ public:
                     }
                     else if (labelMat.at<int>(i, j) == 999999 && rangeMat.at<float>(i, j) > 30.0 && rangeMat.at<float>(i, j) < 150.0)
                     {
-                        if (i > groundScanInd && j % 1 == 0)
+                        if (i > groundScanInd && j % 1 != 0)
                         {
                             // mark ground points so they will not be considered as edge features later
                             segMsg.segmentedCloudGroundFlag[sizeOfSegCloud] = (groundMat.at<int8_t>(i, j) == 1);
