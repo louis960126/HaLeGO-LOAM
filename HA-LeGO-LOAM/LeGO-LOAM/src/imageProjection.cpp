@@ -458,14 +458,14 @@ public:
                             continue;
                     }
                     // size of seg cloud
-                    // mark ground points so they will not be considered as edge features later
-                    segMsg.segmentedCloudGroundFlag[sizeOfSegCloud] = (groundMat.at<int8_t>(i, j) == 1);
-                    // mark the points' column index for marking occlusion later
-                    segMsg.segmentedCloudColInd[sizeOfSegCloud] = j;
-                    // save range info
-                    segMsg.segmentedCloudRange[sizeOfSegCloud] = rangeMat.at<float>(i, j);
-                    // save seg cloud
-                    segmentedCloud->push_back(fullCloud->points[j + i * Horizon_SCAN]);
+                    // // mark ground points so they will not be considered as edge features later
+                    // segMsg.segmentedCloudGroundFlag[sizeOfSegCloud] = (groundMat.at<int8_t>(i, j) == 1);
+                    // // mark the points' column index for marking occlusion later
+                    // segMsg.segmentedCloudColInd[sizeOfSegCloud] = j;
+                    // // save range info
+                    // segMsg.segmentedCloudRange[sizeOfSegCloud] = rangeMat.at<float>(i, j);
+                    // // save seg cloud
+                    // segmentedCloud->push_back(fullCloud->points[j + i * Horizon_SCAN]);
                     ++sizeOfSegCloud;
                 }
             }
